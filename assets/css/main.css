@@ -2396,7 +2396,7 @@ input, select, textarea {
 			}
 
 			.smaller-image {
-				width: 80%; /* Adjust the width as needed */
+				width: 50%; /* Adjust the width as needed */
 				height: auto; /* Maintain the aspect ratio */
 		}
 /* List */
@@ -3616,3 +3616,24 @@ input, select, textarea {
 			width: 60%;
 		}
 	}
+
+
+	.card {
+    border: 1px solid #ddd; /* Add a border for a card-like appearance */
+    border-radius: 8px; /* Add rounded corners for aesthetics */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease; /* Add a transition effect for hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card slightly on hover */
+}
+
+.image-box {
+    overflow: hidden; /* Ensure the image doesn't overflow the box */
+}
+
+.card-text {
+    padding: 16px; /* Add padding to the text for spacing */
+}
