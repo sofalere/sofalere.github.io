@@ -3619,7 +3619,7 @@ input, select, textarea {
 
 
 	.card {
-    border: 1px solid #ddd; /* Add a border for a card-like appearance */
+    border: 1px solid #000000; /* Add a border for a card-like appearance */
     border-radius: 8px; /* Add rounded corners for aesthetics */
     overflow: hidden; /* Ensure content doesn't overflow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
@@ -3633,6 +3633,9 @@ input, select, textarea {
 .image-box {
 	overflow: hidden;
 	position: relative;
+	width: 100%;
+	max-width: 100%;
+	padding: 10%;
 }
 
 .image-box img {
