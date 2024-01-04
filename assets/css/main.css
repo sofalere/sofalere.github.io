@@ -132,6 +132,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 17pt
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2821,11 +2822,11 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 0 4em 0 ;
 	}
 
 		.main.style1 {
-			background:rgb(15 14 14);
+			background:#4fa49a;
 			color: #ffffff;
 		}
 
@@ -2872,7 +2873,7 @@ input, select, textarea {
 				.main.style2 input[type="button"]:hover,
 				.main.style2 button:hover,
 				.main.style2 .button:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: #6bd4c85c;
 				}
 
 				.main.style2 input[type="submit"]:active,
@@ -2880,7 +2881,8 @@ input, select, textarea {
 				.main.style2 input[type="button"]:active,
 				.main.style2 button:active,
 				.main.style2 .button:active {
-					background-color: rgba(255, 255, 255, 0.25);
+					background-color: #6bd4c85c;
+					 /* rgba(255, 255, 255, 0.25); */
 				}
 
 				.main.style2 input[type="submit"].primary,
@@ -2898,7 +2900,7 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:hover,
 					.main.style2 button.primary:hover,
 					.main.style2 .button.primary:hover {
-						background-color: rgba(255, 255, 255, 0.125) !important;
+						background-color: #6bd4c85c !important;
 						color: #ffffff !important;
 					}
 
@@ -2907,7 +2909,7 @@ input, select, textarea {
 					.main.style2 input[type="button"].primary:active,
 					.main.style2 button.primary:active,
 					.main.style2 .button.primary:active {
-						background-color: rgba(255, 255, 255, 0.25) !important;
+						background-color: #6bd4c85c !important;
 					}
 
 			.main.style2 ul.major-icons li .icon {
@@ -2968,7 +2970,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: #6bd4c85c;
 			}
 
 			#header input[type="submit"]:active,
@@ -2976,7 +2978,7 @@ input, select, textarea {
 			#header input[type="button"]:active,
 			#header button:active,
 			#header .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: #6bd4c85c;
 			}
 
 			#header input[type="submit"].primary,
@@ -2994,7 +2996,7 @@ input, select, textarea {
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
+					background-color: #6bd4c85c !important;
 					color: #ffffff !important;
 				}
 
@@ -3003,7 +3005,7 @@ input, select, textarea {
 				#header input[type="button"].primary:active,
 				#header button.primary:active,
 				#header .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
+					background-color: #6bd4c85c !important;
 				}
 
 		#header ul.major-icons li .icon {
@@ -3162,7 +3164,7 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: #6bd4c85c;
 			}
 
 			#footer input[type="submit"]:active,
@@ -3170,7 +3172,7 @@ input, select, textarea {
 			#footer input[type="button"]:active,
 			#footer button:active,
 			#footer .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: #6bd4c85c;
 			}
 
 			#footer input[type="submit"].primary,
@@ -3188,7 +3190,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
+					background-color: #6bd4c85c !important;
 					color: #ffffff !important;
 				}
 
@@ -3197,7 +3199,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:active,
 				#footer button.primary:active,
 				#footer .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
+					background-color: #6bd4c85c!important;
 				}
 
 		#footer ul.major-icons li .icon {
@@ -3240,7 +3242,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 17pt;
 			}
 
 		/* Header */
