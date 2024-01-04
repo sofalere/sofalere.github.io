@@ -2036,7 +2036,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: 2em 0 1em 0;
 	}
 
 		header.major:after {
@@ -3385,6 +3385,7 @@ input, select, textarea {
 
 			h2 {
 				font-size: 1.5em;
+
 			}
 
 			h3 {
