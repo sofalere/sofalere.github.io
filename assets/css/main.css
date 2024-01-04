@@ -3626,9 +3626,9 @@ input, select, textarea {
     transition: transform 0.3s ease; /* Add a transition effect for hover */
 }
 
-.card:hover {
-    transform: scale(1.05); /* Enlarge the card slightly on hover */
-}
+/* .card:hover {
+    transform: scale(1.05); 
+} */
 
 .image-box {
 	overflow: hidden;
