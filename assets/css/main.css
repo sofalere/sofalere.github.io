@@ -2039,10 +2039,10 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: #fed74f;
 			content: '';
 			display: inline-block;
-			height: 1px;
+			height: 3%;
 			margin-top: 1.5em;
 			width: 6em;
 		}
@@ -2727,9 +2727,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #ffffff;
-			color: #565656;
-			/* background-color: rgba(144, 144, 144, 0.075); */
+			background-color: rgba(144, 144, 144, 0.075);
 		}
 
 		input[type="submit"]:active,
@@ -2826,14 +2824,14 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #565656;
+			background:rgb(15 14 14);
 			color: #ffffff;
 		}
 
 		.main.style2 {
 			/* background-color: #333; */
-			color: #565656;
-			background: #ffffff;
+			color: #ffffff;
+			background: linear-gradient(160deg, rgba(86,86,86,1) 8%, rgba(31,31,31,1) 65%);
 			background-attachment: fixed,							fixed;
 			/* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
 			background-size: auto,							cover;
@@ -2848,7 +2846,7 @@ input, select, textarea {
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #565656;
+				color: #ffffff;
 			}
 
 			.main.style2 header p {
@@ -2923,10 +2921,11 @@ input, select, textarea {
 
 	#header {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		/* background-color: #4686a0; */
+		background: linear-gradient(32deg, rgba(86,86,86,1) 1%, rgba(31,31,31,1) 42%);
+		color: #ffffff;
+		/* background-attachment: fixed,							fixed,							fixed; */
+		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3119,10 +3118,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
+		background: #1f1f1f;
+		color: #ffffff;
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3537,7 +3536,7 @@ input, select, textarea {
 	}
 
 	#profile {
-		width: 29%;
+		width: 5%;
 		float: left;
 		margin-left: 1%;
 		border-radius: 20%;
@@ -3628,6 +3627,7 @@ input, select, textarea {
     overflow: hidden; /* Ensure content doesn't overflow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
     transition: transform 0.3s ease; /* Add a transition effect for hover */
+		background: #1f1f1f
 }
 
 /* .card:hover {
@@ -3640,7 +3640,7 @@ input, select, textarea {
 	width: 100%;
 	max-width: 100%;
 	padding: 10%;
-	background: #565656;
+	background: #0f0e0e;
 }
 
 .image-box img {
