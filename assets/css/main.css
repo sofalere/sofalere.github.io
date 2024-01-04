@@ -2824,12 +2824,13 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: linear-gradient(163deg, rgba(103,82,82,0.9584427521008403) 2%, rgba(254,215,79,1) 60%, rgba(255,160,72,1) 98%);;
+			background: #565656;
+			color: whitesmoke
 		}
 
 		.main.style2 {
 			/* background-color: #333; */
-			color: rgba(255, 255, 255, 0.75);
+			color: #565656;
 			background: whitesmoke;
 			background-attachment: fixed,							fixed;
 			/* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
