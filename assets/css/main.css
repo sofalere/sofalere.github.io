@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #4fa49a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2729,7 +2729,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: #1e1e1e;
 		}
 
 		input[type="submit"]:active,
@@ -2946,6 +2946,7 @@ input, select, textarea {
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
 			color: #ffffff;
+			margin: 2em 0 1em 0;
 		}
 
 		#header header p {
