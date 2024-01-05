@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #4fa49a;
+		background: #48978e;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2827,7 +2827,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background:#4fa49a;
+			background:#48978e;
 			color: #ffffff;
 		}
 
@@ -3338,6 +3338,7 @@ input, select, textarea {
 
 				.logo {
 					width: 50%;
+					padding: 2em;
 				}
 		/* Main */
 
