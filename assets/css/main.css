@@ -2928,7 +2928,7 @@ input, select, textarea {
 		/* background-color: #4686a0; */
 		background: linear-gradient(32deg, rgba(86,86,86,1) 1%, rgba(31,31,31,1) 42%);
 		color: #ffffff;
-		/* background-attachment: fixed,							fixed,							fixed; */
+		background-attachment: fixed,							fixed,							fixed;
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
@@ -3635,7 +3635,7 @@ input, select, textarea {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
     transition: transform 0.3s ease; /* Add a transition effect for hover */
 		background: #1f1f1f;
-		padding: 1em;
+		margin-bottom: 2em;
 }
 
 /* .card:hover {
