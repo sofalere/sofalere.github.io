@@ -2036,8 +2036,8 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 2em 0 1em 0;
-		padding: 2em;
+		margin: 1em 0 1em 0;
+		padding-top: 2em;
 	}
 
 		header.major:after {
