@@ -505,7 +505,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-150 > * {
-				padding: 0 0 0 3em;
+				padding-bottom: 3em;
 			}
 
 			.row.gtr-150.gtr-uniform {
@@ -2037,6 +2037,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 2em 0 1em 0;
+		padding: 2em;
 	}
 
 		header.major:after {
@@ -3627,12 +3628,13 @@ input, select, textarea {
 
 
 	.card {
-    border: 1px solid #000000; /* Add a border for a card-like appearance */
+    border: 2px solid #000000; /* Add a border for a card-like appearance */
     border-radius: 8px; /* Add rounded corners for aesthetics */
     overflow: hidden; /* Ensure content doesn't overflow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
     transition: transform 0.3s ease; /* Add a transition effect for hover */
-		background: #1f1f1f
+		background: #1f1f1f;
+		padding: 1em;
 }
 
 /* .card:hover {
