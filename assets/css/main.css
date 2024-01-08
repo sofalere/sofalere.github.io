@@ -23,11 +23,13 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+	}
 
 body {
 	line-height: 1;
@@ -132,7 +134,7 @@ input, select, textarea {
 
 	p {
 		margin: 1em 0 2em 0;
-		font-size: 17pt
+		font-size: 20pt;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -159,6 +161,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		font-weight: bold;
 	}
 
 	h4 {
@@ -726,8 +729,10 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0;
+					margin-top: 5%;
 					margin-left: -2em;
+					display: flex;
+					justify-content: center;
 				}
 
 					.row > * {
@@ -2453,7 +2458,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
-		padding-left: 0;
+		padding-left: 0%;
 	}
 
 		ul.actions li {
@@ -2571,6 +2576,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		padding-top: 3%;
 	}
 
 		ul.icons li {
@@ -2823,7 +2829,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 0 4em 0 ;
+		padding: 2em 4em 0;
 	}
 
 		.main.style1 {
@@ -2924,7 +2930,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 6em 0 6em 0 ;
+		padding: 6em 0 6em 0;
 		/* background-color: #4686a0; */
 		background: linear-gradient(21deg, rgba(86,86,86,1) 3%, rgba(0,0,0,1) 71%, rgba(28,92,105,1) 100%);
 		color: #ffffff;
@@ -2964,7 +2970,7 @@ input, select, textarea {
 		#header button,
 		#header .button {
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			color: #fed74f !important;
 		}
 
 			#header input[type="submit"]:hover,
@@ -2972,7 +2978,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: #6bd4c85c;
+				background-color: #1d5c69db;
 			}
 
 			#header input[type="submit"]:active,
@@ -3047,7 +3053,7 @@ input, select, textarea {
 				left: 50%;
 				position: absolute;
 				top: 100%;
-				/* width: 1px; */
+				width: 1px;
 			}
 
 		#header .inner {
@@ -3337,8 +3343,7 @@ input, select, textarea {
 				}
 
 				.logo {
-					width: 50%;
-					padding: 2em;
+					/* padding: 2em; */
 				}
 		/* Main */
 
@@ -3543,18 +3548,19 @@ input, select, textarea {
 	}
 
 	#profile {
-		width: 22%;
+		width: 15%;
 		float: left;
-		margin-left: 1%;
+		margin: 3%;
 		border-radius: 20%;
 	}
 
 	#bio {
-		font-size: 1.7rem;
+		font-size: 25pt;
 		text-align: left;
 		width: 66%;
 		float: right;
 		margin: 0 2%;
+		padding-bottom: 2%;
 	}
 
 	#name-nav {
@@ -3646,6 +3652,7 @@ input, select, textarea {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	height: 150pt;
 	max-width: 100%;
 	padding: 10%;
 	background: #0f0e0e;
@@ -3653,7 +3660,7 @@ input, select, textarea {
 
 .image-box img {
 	width: 100%;
-	height: auto;
+	height: 100pt;
 	display: block;
 	transition: transform 0.3s ease;
 }
@@ -3664,4 +3671,25 @@ input, select, textarea {
 
 .card-text {
     padding: 16px; /* Add padding to the text for spacing */
+}
+
+.inner-right {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.description {
+	color: #999;
+}
+
+.sundial-group {
+	display:flex;
+	justify-content:center;
+}
+
+.homepage {
+	max-width: 50%;
 }
