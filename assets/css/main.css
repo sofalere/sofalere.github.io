@@ -3556,7 +3556,7 @@ input, select, textarea {
 
 	#bio {
 		font-size: 25pt;
-		text-align: left;
+		text-align: center;
 		width: 66%;
 		float: right;
 		margin: 0 2%;
