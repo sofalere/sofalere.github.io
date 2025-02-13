@@ -1,1 +1,1 @@
-# Sofia Alere - Portfolio
+# Sofija Alere - Portfolio
